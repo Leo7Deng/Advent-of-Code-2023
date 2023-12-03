@@ -7,8 +7,8 @@ fn main() {
 fn part1(input: &str) -> u32 {
     let mut sum :u32 = 0;
     for line in input.lines() {
-        let mut num1 :u32 = 0;
-        let mut num2 :u32 = 0;
+        let mut num1: u32 = 0;
+        let mut num2: u32 = 0;
         let mut iterate :u32 = 0;
         for (i, c) in line.chars().enumerate() {
             if c.is_numeric() {
