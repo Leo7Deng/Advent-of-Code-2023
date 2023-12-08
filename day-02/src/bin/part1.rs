@@ -1,5 +1,3 @@
-use std::i32;
-
 fn main() {
     let input = include_str!("./input1.txt");
     let output = part1(input);
